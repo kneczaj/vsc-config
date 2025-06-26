@@ -54,8 +54,7 @@
     },
     {
         "key": "shift+cmd+r",
-        "command": "workbench.action.reloadWindow",
-        "when": "isDevelopment"
+        "command": "workbench.action.reloadWindow"
     },
     {
         "key": "cmd+r",
@@ -108,5 +107,9 @@
         "key": "shift+alt+o",
         "command": "-editor.action.organizeImports",
         "when": "textInputFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+    },
+    {
+        "key": "shift+alt+cmd+i",
+        "command": "editor.action.inspectTMScopes"
     }
 ]
