@@ -6,106 +6,16 @@
     "editor.defaultFormatter": "biomejs.biome",
     "editor.formatOnSave": true,
     "files.autoSave": "onFocusChange",
-    "workbench.colorTheme": "Dracula Theme Soft",
     "workbench.colorCustomizations": {
         "editor.background": "#1e1f22",
         "editor.foreground": "#a9b7c6"
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
-            {
-                "scope": "entity.name.function",
-                "settings": {
-                    "foreground": "#55a6f2",
-                },
-            },
-            {
-                "scope": "entity.name.type",
-                "settings": {
-                    "foreground": "#a9b7c6",
-                    "fontStyle": ""
-                },
-            },
-            {
-                "scope": "storage",
-                "settings": {
-                    "foreground": "#cf8e6d",
-                },
-            },
-            {
-                "scope": "variable.parameter",
-                "settings": {
-                    "foreground": "#a9b7c6",
-                },
-            },
-            {
-                "scope": "string",
-                "settings": {
-                    "foreground": "#6aab73",
-                },
-            },
-            {
-                "scope": "constant.other",
-                "settings": {
-                    "foreground": "#cf8e6d",
-                },
-            },
-            {
-                "scope": "constant.numeric",
-                "settings": {
-                    "foreground": "#2aa9b5",
-                },
-            },
-            {
-                "scope": "constant.language",
-                "settings": {
-                    "foreground": "#cf8e6d",
-                },
-            },
-            {
-                "scope": "variable",
-                "settings": {
-                    "foreground": "#c77ebb",
-                },
-            },
-            {
-                "scope": "keyword",
-                "settings": {
-                    "foreground": "#cf8e6d",
-                },
-            },
-            {
-                "scope": "variable.other.constant",
-                "settings": {
-                    "foreground": "#a9b7c6",
-                },
-            },
-            {
-                "scope": "entity.name.class, entity.name.type.class",
-                "settings": {
-                    "foreground": "#a9b7c6",
-                },
-            },
-            {
-                "scope": "support",
-                "settings": {
-                    "foreground": "#2fbaa3",
-                    "fontStyle": ""
-                },
-            },
-            {
-                "scope": "entity.other.attribute-name",
-                "settings": {
-                    "foreground": "#a9b7c6",
-                    "fontStyle": ""
-                },
-            },
-            {
-                "scope": "meta.import variable.other.readwrite.alias, meta.export variable.other.readwrite.alias",
-                "settings": {
-                    "foreground": "#a9b7c6"
-                }
-            }
+
         ]
     },
+    "workbench.colorTheme": "Dracula Theme",
+    "editor.foldingImportsByDefault": true,
+    "gitlens.currentLine.enabled": false
 }
