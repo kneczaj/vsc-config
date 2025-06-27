@@ -10,11 +10,6 @@
         "editor.background": "#1e1f22",
         "editor.foreground": "#a9b7c6"
     },
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-
-        ]
-    },
     "workbench.colorTheme": "Dracula Theme",
     "editor.foldingImportsByDefault": true,
     "gitlens.currentLine.enabled": false,
