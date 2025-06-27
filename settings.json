@@ -17,5 +17,6 @@
     },
     "workbench.colorTheme": "Dracula Theme",
     "editor.foldingImportsByDefault": true,
-    "gitlens.currentLine.enabled": false
+    "gitlens.currentLine.enabled": false,
+    "biome.requireConfiguration": true
 }

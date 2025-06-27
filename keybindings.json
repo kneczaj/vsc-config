@@ -97,7 +97,7 @@
     {
         "key": "alt+cmd+o",
         "command": "editor.action.organizeImports",
-        "when": "textInputFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+        "when": "textInputFocus && !editorReadonly"
     },
     {
         "key": "shift+alt+o",
