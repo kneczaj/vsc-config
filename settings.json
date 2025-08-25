@@ -3,6 +3,7 @@
     "biome.suggestInstallingGlobally": false,
     "editor.fontFamily": "Inter, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 13,
+    "editor.lineHeight": 22,
     "editor.defaultFormatter": "biomejs.biome",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
@@ -17,5 +18,6 @@
     "workbench.colorTheme": "Dracula Theme",
     "editor.foldingImportsByDefault": true,
     "gitlens.currentLine.enabled": false,
-    "biome.requireConfiguration": true
+    "biome.requireConfiguration": true,
+    "editor.minimap.enabled": false
 }
