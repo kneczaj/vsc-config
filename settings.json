@@ -21,5 +21,8 @@
     "editor.foldingImportsByDefault": true,
     "gitlens.currentLine.enabled": false,
     "biome.requireConfiguration": true,
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "emmet.excludeLanguages": [
+        "typescriptreact", "javascriptreact"
+    ]
 }
