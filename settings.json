@@ -4,6 +4,8 @@
     "editor.fontFamily": "Inter, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 13,
     "editor.lineHeight": 22,
+    "editor.scrollBeyondLastLine": false,
+    "editor.fastScrollSensitivity": 3.122,
     "editor.defaultFormatter": "biomejs.biome",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
