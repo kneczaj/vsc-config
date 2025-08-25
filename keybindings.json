@@ -126,5 +126,9 @@
     {
         "key": "alt+cmd+a",
         "command": "git.stage"
+    },
+    {
+        "key": "alt+enter",
+        "command": "extension.resolveMissingImportsForHighlighted"
     }
 ]
