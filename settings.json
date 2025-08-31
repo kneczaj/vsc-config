@@ -17,12 +17,12 @@
         "editor.background": "#1e1f22",
         "editor.foreground": "#a9b7c6"
     },
-    "workbench.colorTheme": "Dracula Theme",
     "editor.foldingImportsByDefault": true,
     "gitlens.currentLine.enabled": false,
     "biome.requireConfiguration": true,
     "editor.minimap.enabled": false,
     "emmet.excludeLanguages": [
         "typescriptreact", "javascriptreact"
-    ]
+    ],
+    "workbench.colorTheme": "Dark theme by KNeczaj"
 }
