@@ -6,7 +6,8 @@
     },
     {
         "key": "escape",
-        "command": "workbench.view.explorer"
+        "command": "workbench.view.explorer",
+        "when": "!editorFocus"
     },
     {
         "key": "cmd+space",
