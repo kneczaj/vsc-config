@@ -130,5 +130,14 @@
     {
         "key": "alt+enter",
         "command": "extension.resolveMissingImportsForHighlighted"
+    },
+    {
+        "key": "shift+f6",
+        "command": "-workbench.action.focusPreviousPart"
+    },
+    {
+        "key": "shift+f6",
+        "command": "editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
     }
 ]
