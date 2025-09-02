@@ -24,5 +24,6 @@
     "emmet.excludeLanguages": [
         "typescriptreact", "javascriptreact"
     ],
-    "workbench.colorTheme": "Dark theme by KNeczaj"
+    "workbench.colorTheme": "Dark theme by KNeczaj",
+    "editor.matchBrackets": "never"
 }
