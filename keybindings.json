@@ -112,7 +112,7 @@
     {
         "key": "f11",
         "command": "gitlens.toggleFileBlame",
-        "when": "editorTextFocus && resource in 'gitlens:tabs:blameable'"
+        "when": "editorTextFocus"
     },
     {
         "key": "alt+b",
@@ -159,5 +159,15 @@
         "key": "shift+cmd+space",
         "command": "-editor.action.triggerParameterHints",
         "when": "editorHasSignatureHelpProvider && editorTextFocus"
+    },
+    {
+        "key": "shift+f6",
+        "command": "renameFile",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "f2",
+        "command": "renameFile",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
     }
 ]
