@@ -14,7 +14,7 @@ fi
 
 echo "Installing VCS config..."
 
-config_dir=$(realpath "./")
+config_dir=$(realpath "${SCRIPT_DIR}")
 
 echo "Linking \"$config_dir\" to \"$VCS_CONFIG_DIR\""
 
