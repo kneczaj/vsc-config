@@ -12,10 +12,19 @@ if [ -d "$VCS_CONFIG_DIR" ]; then
     exit 0
 fi
 
+if [ -L "$VCS_CONFIG_DIR" ]; then
+    echo "VCS config directory is already linked. Skipping VCS config installation."
+    exit 0
+fi
+
 echo "Installing VCS config..."
 
-config_dir=$(realpath "${SCRIPT_DIR}")
+dir=$(realpath "${SCRIPT_DIR}")
+target="${VCS_CONFIG_DIR}"
+parentdir="$(dirname "$target")"
+echo "$parentdir"
+mkdir -p "${parentdir}"
 
-echo "Linking \"$config_dir\" to \"$VCS_CONFIG_DIR\""
+echo "Linking \"$dir\" to \"$target\""
 
-ln -s "$config_dir" "$VCS_CONFIG_DIR"
+ln -s "$dir" "$target"
