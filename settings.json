@@ -31,4 +31,7 @@
     "material-icon-theme.saturation": 0.8,
     "material-icon-theme.folders.theme": "classic",
     "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "vscode_custom_css.imports": [
+        "file://${userHome}/Library/Application Support/Code/User/css/index.css"
+    ]
 }

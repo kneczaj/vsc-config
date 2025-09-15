@@ -14,3 +14,8 @@ To do this go to System Settings -> Keyboard.
 
 The list:
 - F11 - Mission Control -> Show desktop
+
+## Custom CSS
+1. Run CMD+Shift+P -> Enable Custom JS and CSS.
+2. Reload VCS.
+3. Info about corrupted programm file is shown. Click on the gear icon, then "Do not show again".
