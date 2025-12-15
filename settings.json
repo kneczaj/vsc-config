@@ -33,5 +33,11 @@
     "workbench.secondarySideBar.defaultVisibility": "hidden",
     "vscode_custom_css.imports": [
         "file://${userHome}/Library/Application Support/Code/User/css/index.css"
-    ]
+    ],
+    "roo-cline.allowedCommands": [
+        "git log",
+        "git diff",
+        "git show"
+    ],
+    "roo-cline.deniedCommands": []
 }
