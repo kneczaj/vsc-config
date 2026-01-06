@@ -54,7 +54,7 @@
         "when": "inSearchEditor"
     },
     {
-        "key": "shift+cmd+r",
+        "key": "shift+alt+cmd+r",
         "command": "workbench.action.reloadWindow"
     },
     {
@@ -169,5 +169,13 @@
         "key": "f2",
         "command": "renameFile",
         "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.action.replaceInFiles"
+    },
+    {
+        "key": "shift+cmd+h",
+        "command": "-workbench.action.replaceInFiles"
     }
 ]
