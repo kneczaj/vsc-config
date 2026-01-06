@@ -39,5 +39,39 @@
         "git diff",
         "git show"
     ],
-    "roo-cline.deniedCommands": []
+    "roo-cline.deniedCommands": [
+        "yarn",
+        "yarn add react-reconciler",
+        "yarn add",
+        "git commit",
+        "ls",
+        "echo",
+        "grep",
+        "head",
+        "find",
+        "mv",
+        "yarn test:once",
+        "yarn test:coverage",
+        "git checkout HEAD -- src/index.ts",
+        "git checkout",
+        "git",
+        "git checkout HEAD",
+        "yarn lint",
+        "yarn test",
+        "npx tsc --noEmit",
+        "npx",
+        "npx tsc",
+        "npm",
+        "npm test",
+        "npm test -- src/components/Schema.spec.tsx",
+        "yarn biome check .",
+        "npx @biomejs/biome check src/components/Object.ts"
+    ],
+    "editor.accessibilitySupport": "off",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.tabSize": 2,
+    "workbench.editorAssociations": {
+        "git-rebase-todo": "default"
+    }
 }
